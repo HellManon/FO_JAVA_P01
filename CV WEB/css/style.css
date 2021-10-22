@@ -1,0 +1,165 @@
+/* MAIN */
+* {
+  box-sizing: border-box;
+  border-collapse: none;
+}
+
+html {
+  font-size: 62.5%;
+  margin-top: 0px;
+}
+
+body {
+  
+  margin: 0;
+  font-family: 'Ubuntu, 'Segoe UI', Roboto, Oxygen, Open Sans', Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-top: 0px;
+  color:#003668;
+}
+
+span{
+  background-color: #0ceda3;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  color: #03707a;
+}
+
+ul {
+  
+  margin: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  line-height: 2.5rem;
+  padding-bottom: 4%;
+}
+
+
+/*header*/
+header{
+  margin-top: 0px;
+  padding-top: 1%;
+  background-color: #7451eb;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 7rem;
+  text-align: left;
+  padding-left: 7%;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: left;
+  padding:1%;
+  padding-left: 7%;
+  line-height: 4.5rem;
+  margin: 0px;
+}
+
+p{
+  text-align: justify;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  margin: 0px;
+}
+
+#photo{
+  float: right;
+  width: 220px;
+  height: 240px;
+  margin-top: 1%;
+  margin-right: 10%;
+  margin-left: 4%;
+  margin-bottom: 10%;
+}
+
+/*body*/
+
+h3 {
+  text-align: left;
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0px; 
+  padding-left: 0%;
+  padding: 1%;
+}
+nav{
+  float: left;  
+  height: 20rem;
+  width: 30%;
+  margin-left: 2%;
+  
+  /*display: block;*/
+}
+section{
+  display: block;
+  margin-left: 35%;
+  margin-bottom: 5%; 
+}
+
+.a1  p{
+  margin-top: 200px;
+  text-align: center ;
+  font-size: 15rem;
+  font-weight: 650;
+  vertical-align: middle; 
+}
+
+.a2 p{
+  padding: 0%;
+  margin-right: 15%;
+}
+
+/*footer*/
+footer{
+  background-color: #003668;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #ffffff;
+}
+
+footer h2{
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 7%;
+  padding-bottom: 0%;
+  
+}
+footer p{
+  padding-left: 7%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+footer ul{
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 3%;
+  padding-left: 5%;
+  vertical-align: middle;
+  margin-top: 3%;
+}
+
+footer li{
+  margin-right: 3%;
+  font-size: 7rem;
+  list-style: none;
+}
+
+footer a {
+   color: #0277bd;
+}
+
+footer a :hover {
+  transition: 200ms;
+  color: #66b0db;
+}
+
